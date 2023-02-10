@@ -6,9 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['tab2.page.scss']
 })
 export class Tab2Page {
-  opt = {
-    autoplay: true
+
+  option = {
+    initialSlide: 0,
+    autoplay: true,
+    loop: true
   }
+
   constructor() { }
 
 }
