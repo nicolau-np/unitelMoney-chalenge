@@ -1,0 +1,7 @@
+{
+  "name": "unitelMoney-challenge",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
