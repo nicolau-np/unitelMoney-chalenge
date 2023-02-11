@@ -1,13 +1,92 @@
 <ion-header [translucent]="true">
   <ion-toolbar color="primary">
-    <ion-title>
-      Carteira
-    </ion-title>
+    <ion-img src="assets/icon/favicon.png" slot="start" class="img-logo"></ion-img>
+    <ion-title></ion-title>
+    <ion-buttons slot="end">
+      <ion-button><ion-icon name="chatbubble-ellipses-outline"></ion-icon></ion-button>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <div class="container">
 
-  </div>
+  <ion-grid>
+
+    <ion-row>
+      <ion-col>
+
+        <ion-row>
+          <ion-col>
+            <span class="text-span conta">Conta Principal <ion-icon
+                name="chevron-down-outline"></ion-icon></span>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>
+            <span class="text-span estrela">*****</span>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>
+            <span class="text-span">Saldo <ion-icon
+                name="chevron-forward-outline"></ion-icon></span>
+          </ion-col>
+        </ion-row>
+
+      </ion-col>
+
+      <ion-col>
+        <ion-img src="assets/img/img2.png"></ion-img>
+      </ion-col>
+
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+        <ion-button expand="full" color="primary">
+          <ion-icon slot="start" name="qr-code-outline"></ion-icon>
+          Ler Código QR
+        </ion-button>
+      </ion-col>
+      <ion-col>
+        <ion-button expand="full" color="primary">
+          <ion-icon slot="start" name="download-outline"></ion-icon>
+          Receber
+        </ion-button>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+        <ion-button expand="full" color="primary">
+          <ion-icon slot="start" name="server-outline"></ion-icon>
+          Depósito
+        </ion-button>
+      </ion-col>
+      <ion-col>
+        <ion-button expand="full" color="primary">
+          <ion-icon slot="start" name="scale-outline"></ion-icon>
+          Levantamento
+        </ion-button>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+        <ion-button expand="full" color="primary">
+          <ion-icon slot="start" name="share-outline"></ion-icon>
+          Transferência
+        </ion-button>
+      </ion-col>
+      <ion-col>
+        <ion-button expand="full" color="primary">
+          <ion-icon slot="start" name="shield-checkmark-outline"></ion-icon>
+          Pagar
+        </ion-button>
+      </ion-col>
+    </ion-row>
+
+  </ion-grid>
+
+
 </ion-content>
